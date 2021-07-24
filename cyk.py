@@ -58,9 +58,6 @@ for length in range(1, len(word)+1):
             searches.append(word[i])
         else:
             for newLength in range(1, length):
-                l1 = word[i:i+newLength]
-                l2 = word[i+newLength:i+length]
-
                 v1 = table[i][newLength-1]
                 v2 = table[i+newLength][length-newLength-1]
 
