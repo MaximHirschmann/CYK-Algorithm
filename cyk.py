@@ -70,3 +70,4 @@ for length in range(1, len(word)+1):
                         table[i][length-1].add(k)
 
 printer(word, table)
+input("Press Enter to exit")
